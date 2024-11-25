@@ -1,0 +1,39 @@
+{
+  "analytics": {
+    "cuanter": {
+      "providerPlugin": "awscloudformation",
+      "service": "Pinpoint"
+    }
+  },
+  "auth": {
+    "cuantera460b2aaa460b2aa": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "BIRTHDATE",
+          "EMAIL",
+          "FAMILY_NAME",
+          "GIVEN_NAME"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  }
+}

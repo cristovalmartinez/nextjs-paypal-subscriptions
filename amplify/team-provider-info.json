@@ -1,0 +1,23 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "",
+      "UnauthRoleArn": "",
+      "AuthRoleArn": "",
+      "Region": "",
+      "DeploymentBucketName": "",
+      "UnauthRoleName": "",
+      "StackName": "",
+      "StackId": "",
+      "AmplifyAppId": ""
+    },
+    "categories": {
+      "auth": {
+        "cuantera460b2aaa460b2aa": {}
+      },
+      "analytics": {
+        "cuanter": {}
+      }
+    }
+  }
+}

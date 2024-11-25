@@ -1,0 +1,51 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "",
+    "allowUnauthenticatedIdentities": true,
+    "resourceNameTruncated": "",
+    "userPoolName": "",
+    "autoVerifiedAttributes": ["email"],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": ["SMS Text Message"],
+    "smsAuthenticationMessage": "Your  code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": ["birthdate", "email", "family_name", "given_name"],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": "7",
+    "userpoolClientWriteAttributes": [
+      "birthdate",
+      "email",
+      "family_name",
+      "given_name"
+    ],
+    "userpoolClientReadAttributes": [
+      "birthdate",
+      "email",
+      "family_name",
+      "given_name"
+    ],
+    "userpoolClientLambdaRole": "cuantea460b2aa_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": true,
+    "sharedId": "a460b2aa",
+    "resourceName": "",
+    "authSelections": "",
+    "useDefault": "manual",
+    "thirdPartyAuth": false,
+    "usernameAttributes": ["email"],
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": {},
+    "hostedUI": false,
+    "userPoolGroupList": [],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true
+  }
+}

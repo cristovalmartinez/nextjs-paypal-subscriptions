@@ -1,0 +1,18 @@
+{
+  "appName": "",
+  "roleName": "",
+  "cloudformationPolicyName": "",
+  "cloudWatchPolicyName": "",
+  "pinpointPolicyName": "",
+  "authPolicyName": "",
+  "unauthPolicyName": "",
+  "authRoleName": {
+    "Ref": ""
+  },
+  "unauthRoleName": {
+    "Ref": ""
+  },
+  "authRoleArn": {
+    "Fn::GetAtt": ["", ""]
+  }
+}

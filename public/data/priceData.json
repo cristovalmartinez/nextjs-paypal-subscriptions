@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Starter",
+    "price": "€10",
+    "benefits": ["Test description 1"],
+    "planId": "P-52H90698VH844913UM27FALI"
+  },
+  {
+    "name": "premium",
+    "price": "€20",
+    "benefits": ["Test description 2"],
+    "planId": "P-50N345212N176462YM27LQOQ"
+  }
+]
